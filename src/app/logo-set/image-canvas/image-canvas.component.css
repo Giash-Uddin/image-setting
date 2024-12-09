@@ -1,0 +1,7 @@
+.image-data{
+  background-image: url('src/assets/gradiant-ractangle.jpg'); /* Replace with your image path */
+  background-repeat: no-repeat; /* Prevent repeating */
+  height: 1000px;
+  width: 360px;
+  justify-content: center;
+}
