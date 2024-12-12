@@ -48,5 +48,17 @@ export class ImageResizerComponent implements OnInit {
       this.dynamicStyles.width=(Number(tempWidth.replace("px",'')) + Number(event.edges.right))+'px';
     }
   }
+/* Rotator function start */
+  active1 = true;
+  active2 = true;
+
+  toggle1(): void {
+    this.active1 = !this.active1;
+  }
+
+  toggle2(): void {
+    this.active2 = !this.active2;
+  }
+  /* Rotator function End */
 }
 

@@ -1,0 +1,19 @@
+<!--  IMAGE ROTATOR START -->
+
+<div class="box-wrapper" id="box-wrapper-{{ id }}" #boxWrapper>
+  <div class="box" id="box" #box>
+<!--    <ng-content></ng-content>-->
+
+    <div [ngStyle]="{ display: (active$ | async) ? '' : 'none' }">
+      <div class="dot rotate" id="rotate" #rotate></div>
+      <div class="dot left-top" id="left-top"></div>
+      <div class="dot left-bottom" id="left-bottom"></div>
+      <div class="dot right-bottom" id="right-bottom"></div>
+      <div class="dot right-top" id="right-top"></div>
+      <div class="rotate-link">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  IMAGE ROTATOR END -->

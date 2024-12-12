@@ -1,26 +1,35 @@
-<div
-  [ngStyle]="dynamicStyles"
-  mwlResizable
-  [enableGhostResize]="true"
-  (resizeEnd)="onResizeEnd($event)"
->
+<!--  IMAGE ROTATOR START -->
 
-<!--  <img [src]="imageUrl" [ngStyle]="dynamicImgStyles" alt="SampleImage"/>-->
+  <app-image-rotator id="1" [height]="100" [width]="100" [disabled]="!active1"></app-image-rotator>
 
-  <div
-    class="resize-handle-top" mwlResizeHandle
-    [resizeEdges]="{ top: true }"
-  ></div>
-  <div
-    class="resize-handle-left" mwlResizeHandle
-    [resizeEdges]="{ left: true }"
-  ></div>
-  <div
-    class="resize-handle-right" mwlResizeHandle
-    [resizeEdges]="{ right: true }"
-  ></div>
-  <div
-    class="resize-handle-bottom" mwlResizeHandle
-    [resizeEdges]="{ bottom: true }"
-  ></div>
-</div>
+<!--  IMAGE ROTATOR END -->
+
+
+<!--  IMAGE RESIZER START -->
+<!--<div-->
+<!--  [ngStyle]="dynamicStyles"-->
+<!--  mwlResizable-->
+<!--  [enableGhostResize]="true"-->
+<!--  (resizeEnd)="onResizeEnd($event)"-->
+<!--&gt;-->
+
+<!--&lt;!&ndash;  <img [src]="imageUrl" [ngStyle]="dynamicImgStyles" alt="SampleImage"/>&ndash;&gt;-->
+
+<!--  <div-->
+<!--    class="resize-handle-top" mwlResizeHandle-->
+<!--    [resizeEdges]="{ top: true }"-->
+<!--  ></div>-->
+<!--  <div-->
+<!--    class="resize-handle-left" mwlResizeHandle-->
+<!--    [resizeEdges]="{ left: true }"-->
+<!--  ></div>-->
+<!--  <div-->
+<!--    class="resize-handle-right" mwlResizeHandle-->
+<!--    [resizeEdges]="{ right: true }"-->
+<!--  ></div>-->
+<!--  <div-->
+<!--    class="resize-handle-bottom" mwlResizeHandle-->
+<!--    [resizeEdges]="{ bottom: true }"-->
+<!--  ></div>-->
+<!--</div>-->
+<!--  IMAGE RESIZER END -->

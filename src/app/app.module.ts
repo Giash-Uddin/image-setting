@@ -14,13 +14,15 @@ import { AppComponent } from './app.component';
 import { ImageCanvasComponent } from './logo-set/image-canvas/image-canvas.component';
 import { ImageResizerComponent } from './logo-set/image-resizer/image-resizer.component';
 import {ResizableModule} from "angular-resizable-element";
+import { ImageRotatorComponent } from './logo-set/image-rotator/image-rotator.component';
 
 // @ts-ignore
 @NgModule({
   declarations: [
     AppComponent,
     ImageCanvasComponent,
-    ImageResizerComponent
+    ImageResizerComponent,
+    ImageRotatorComponent
   ],
   imports: [
     BrowserModule,
